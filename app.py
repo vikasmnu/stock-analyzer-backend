@@ -77,7 +77,7 @@ def suggested_stocks():
         sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1ghWvOiGGcFWRu1mEdNSjpk7r0CMOW_JFeJznWs0gFOw/edit")
         worksheet = sheet.worksheet("OLD")
 
-        tickers = worksheet.col_values(1)
+        tickers = worksheet.col_values(2)
         good_entries = []
 
         for symbol in tickers:
