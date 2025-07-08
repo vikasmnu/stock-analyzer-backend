@@ -1,0 +1,13 @@
+# Ignore Google service account
+*.json
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Logs and temp
+*.log
+
+# VSCode or other editor settings
+.vscode/
